@@ -11,6 +11,9 @@ sudo apt-get -y dist-upgrade | sudo apt-get -y install mc htop
 #Install Apache
 #sudo apt-get -y apache2
 
+#Установка LAMP. Нужно будет установить MySQL пароль для суперпользователя.
+#sudo apt-get install lamp-server^
+
 #Install MySQL
 #sudo apt-get -y mysql-server libdbd-mysql-perl php5-mysql
 #sudo apt-get -y phpmyadmin
