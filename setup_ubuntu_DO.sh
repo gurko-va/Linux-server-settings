@@ -3,7 +3,7 @@
 #dpkg --get-selections | grep -v "deinstall"
 
 sudo apt-get update
-sudo apt-get -y dist-upgrade
+sudo apt-get -y dist-upgrade | sudo apt-get -y install mc htop
 
 #Install Nginx
 #sudo apt-get -y install nginx nginx-common nginx-core
